@@ -1,0 +1,21 @@
+.school {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    &__header {
+        margin: 10px;
+    }
+    &__subheader {
+        margin: 10px;
+    }
+    &__item {
+        margin: 5px;
+    }
+    &__list_wrap {
+        margin: 20px;
+    }
+}

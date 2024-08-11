@@ -1,0 +1,90 @@
+.down-meeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+    &__adress-text {
+        width: 50%;
+        margin: 10px auto;
+    }
+    &__telefon {
+        text-decoration: none;
+        color: #333;
+    }
+    &__mail {
+        text-decoration: none;
+        color: #333;
+    }
+}
+.down-meeting__adress-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.rights-section {
+    
+    &__link-item {
+        text-decoration: none;
+        color:#333;
+    }
+}
+@media screen and (min-width: 768px) {
+    .down-meeting {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    
+        
+    
+        &__adress-text {
+            width: 50%;
+            margin: 10px auto;
+        }
+    
+        &__telefon {
+            text-decoration: none;
+            color: #333;
+        }
+    
+        &__mail {
+            text-decoration: none;
+            color: #333;
+        }
+        &__contacts-block {
+            width: 30%;
+        }
+    }
+    .footer-wrap {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .down-meeting__adress-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+       
+    
+    }
+    .rights-section {
+        width: 30%;
+        &__link-item {
+            text-decoration: none;
+            color:#333;
+        }
+    }
+}

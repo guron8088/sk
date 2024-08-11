@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "made_evolve_sans", sans-serif;
+    text-align: center;
+    color: #333;
+   
+}
+@font-face {
+    font-family: kymer_awon;
+    src: url(../fonts/kymer_awon/kymerawon-regularsc.otf);
+}
+@font-face {
+    font-family: made_evolve_sans;
+    src: url(../fonts/made_evolve_sans/MADE\ Evolve\ Sans\ Light\ \(PERSONAL\ USE\).otf);
+}
+@import "../import/nav";
+@import "../import/button";
+@import "../import/form";
+@import "../import/sk";
+@import "../import/info";
+@import "../import/maps";
+@import "../import/footer";
+@import "../import/gallery";
+@import "../import/card";
+@import "../import/massag";
+@import "../import/school";
+@import "../import/gutschein";
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: #e8e1d1;
+}
+
+a {
+    cursor: pointer;
+}
+
+hr {
+    width: 50%;
+    margin: 5px auto;
+    border-top: 3px solid black;
+    
+}
+.massage__title, .body_rituals__title, .face_rituals__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2px;
+}

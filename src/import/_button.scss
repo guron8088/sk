@@ -1,0 +1,61 @@
+.meeting__button {
+  --c: #e5b63583;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 2px;
+  background:
+    var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p, 0%)) 0%,
+    var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p, 0%)) 100%;
+  background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
+  outline-offset: 0.1em;
+  transition:
+    background-size 0.4s,
+    background-position 0s 0.4s;
+}
+.meeting__button:hover {
+  --_p: 100%;
+  transition:
+    background-position 0.4s,
+    background-size 0s;
+}
+.meeting__button:active {
+  box-shadow: 0 0 9e9Q inset #0009;
+  background-color: var(--c);
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  border: none;
+  width: 90vw;
+  background-color: #e8e1d1;
+  
+}
+.footer_btn {
+  border-radius: 5px;
+  box-shadow: 1px -1px 7px 1px rgba(0, 0, 0, 0.3)
+}
+.meeting__button {
+  background-color: #e5b63583;
+  cursor: pointer;
+  padding: 3px;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+}
+.meeting__but-link {
+  color: #000000;
+  text-decoration: none;
+  margin: 5px;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+.send {
+  margin-top: 10px;
+  letter-spacing: 1px;
+}

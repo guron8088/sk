@@ -1,0 +1,111 @@
+.massage {
+    margin-top: 50px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .massage {
+        &__block-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .body_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .face_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .massage {
+        &__block-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .body_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .face_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+}
+@media screen and (min-width: 1440px) {
+    .massage {
+        &__block-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .body_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+    .face_rituals {
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            height: 50px;
+        }
+    }
+}
