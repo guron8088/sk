@@ -1,9 +1,18 @@
 .body_rituals__menu-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     flex-direction: column;
     align-items: start;
     list-style-type: square;
+
+}
+
+.body_rituals__list-item {
+    text-align: left;
+}
+.card-img-top {
+    border-radius: 0;
+    
 }
 @media screen and (min-width: 290px) and (max-width: 550px) {
     .card {
@@ -14,6 +23,7 @@
         background-color: #e8e1d1;
         border-radius: 0;
         margin: 5px;
+        
         &__massage-card {
             height: auto;
         }
@@ -26,8 +36,8 @@
     }
     .card-img-top {
         object-fit: cover;
-        height: 100%;
-        width: 100%;
+        height: 60%;
+        width:  80%;
     }
     .card-body {
         display: flex;
@@ -81,23 +91,24 @@
         background-color: #e8e1d1;
         border-radius: 0;
         margin: 5px;
+        width: 30%;
         &__massage-card {
-            width: 30vw;
-            height: 60vh;
+            width: 30%;
+            height: 80vh;
         }
         &__body-cards {
-            width: 30vw;
-            height: 90vh;
-            display: flex;
+            width: 33%;
+            height: 100vh;
+            
         }
         &__face-card {
             width: 30vw;
-            height: 70vh;
+            height: 85vh;
         }
     }
     .card-img-top {
         object-fit: cover;
-        height: 50%;
+        height: 40%;
         width: 90%;
     }
     .card-body {
@@ -120,7 +131,7 @@
         justify-content: center;
         align-items: center;
         &__massage-card {
-            height: 50vh;
+            height: 60vh;
         }
         &__body-cards {
             height: 80vh;
@@ -131,7 +142,8 @@
         }
     }
     .card-img-top {
-        height: 50%;
+        height: 30%;
+        
         width: 80%;
         object-fit: cover;
     }
@@ -143,36 +155,38 @@
     }
 }
 @media screen and (min-width: 1440px) {
-    .massage__title,
+    /* .massage__title,
     .body_rituals__title,
     .face_rituals__title {
         height: 100px;
-    }
+    } */
     .card {
         height: 100vh;
-        width: 20%;
+        width: 30%;
         background-color: #e8e1d1;
         border-radius: 0;
         margin: 5px;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         &__massage-card {
-            height: 50vh;
+            height: 70vh;
         }
         &__body-cards {
-            height: 80vh;
-            width: 20%;
+            height: 90vh;
+            width: 33%;
         }
         &__face-card {
-            height: 70vh;
+            height: 85vh;
             width: 30%;
         }
     }
     .card-img-top {
         height: 50%;
+        
         width: 80%;
         object-fit: cover;
+        border-radius: none;
     }
     p {
         padding: 0;

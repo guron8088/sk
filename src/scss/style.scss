@@ -5,7 +5,6 @@
     font-family: "made_evolve_sans", sans-serif;
     text-align: center;
     color: #333;
-   
 }
 @font-face {
     font-family: kymer_awon;
@@ -39,13 +38,19 @@ a {
 }
 
 hr {
-    width: 50%;
+    width: 80%;
     margin: 5px auto;
     border-top: 3px solid black;
-    
 }
-.massage__title, .body_rituals__title, .face_rituals__title {
+.massage__title,
+.body_rituals__title,
+.face_rituals__title {
     text-transform: uppercase;
     font-weight: 600;
     padding: 2px;
+}
+
+h3 {
+    font-size: inherit;
+    font-weight: inherit;
 }
